@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#Let's parse Apache logs
+# Replace this text with your comment
 
-log file="apache-access.log"
+log_file="apache-access.log"
 if [ -e "$log_file" ]; then
 
      awk '(print $1, $9)' "$log_file"
