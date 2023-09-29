@@ -7,5 +7,5 @@ if [ -e "$log_file" ]; then
      awk '(print $1, $9)' "$log_file"
 else
 
-     echo "The log file $log_file does not exist."
+     echo "The log file $log_file dose not exist."
 fi
