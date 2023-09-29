@@ -2,7 +2,7 @@
 # Script to display "Best School" 10 times and "Hi" on the 9th iteration
 count=1
 while [ $count -le 10 ]; do
-  if [ $count -eq 9 ; then
+  if [ $count -eq 9 ]; then
     echo "Best School"
     echo "Hi"
   else
